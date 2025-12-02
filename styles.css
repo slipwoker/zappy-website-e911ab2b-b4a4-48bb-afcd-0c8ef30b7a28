@@ -82,7 +82,7 @@ body {
   padding: 0;
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.6;
-  color: #3a3a3a;
+  color: #3A3A3A;
   background: #ffffff;
 }
 
@@ -93,14 +93,19 @@ img {
 }
 
 :root {
-  --primary-color: #0170b9;
+--primary-color: #1A4D8F;
   --dark-gray: #3a3a3a;
-  --accent-red: #cf2e2e;
-  --accent-orange: #ff6900;
+  --accent-red: #F39C12;
+  --accent-orange: #F39C12;
   --light-bg: #f5f5f5;
   --white: #ffffff;
-  --text-color: #3a3a3a;
+  --text-color: #4a4a4a;
   --shadow: 0 2px 10px rgba(0,0,0,0.1);
+  --secondary-color: #E85D3F;
+  --accent-color: #F39C12;
+  --background-color: #FFFFFF;
+  --surface-color: #F8F9FA;
+  --text-secondary-color: #8c8c8c;
 }
 
 .container {
@@ -239,7 +244,7 @@ img {
 
 .nav-cta-btn {
   background: var(--primary-color);
-  color: var(--white);
+  color: #FFFFFF;
   padding: 10px 24px;
   border-radius: 5px;
   text-decoration: none;
@@ -250,7 +255,7 @@ img {
 }
 
 .nav-cta-btn:hover {
-  background: #015a93;
+  background: #143D6F;
   transform: translateY(-2px);
 }
 
@@ -265,7 +270,7 @@ img {
 
 .mobile-toggle:hover svg,
 .phone-header-btn:hover svg {
-  color: #015a93;
+  color: #143D6F;
 }
 
 .hero {
@@ -353,8 +358,8 @@ img {
 }
 
 .btn-primary:hover {
-  background: #015a93;
-  border-color: #015a93;
+  background: #143D6F;
+  border-color: #143D6F;
   transform: translateY(-2px);
 }
 
@@ -807,7 +812,7 @@ p {
 }
 
 .contact-details a:hover {
-  color: #015a93;
+  color: #143D6F;
 }
 
 .contact-cta {
@@ -923,7 +928,7 @@ p {
     font-size: 24px;
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    background: #25d366;
+    background: #F39C12;
     color: white;
     text-decoration: none;
   }
@@ -1034,11 +1039,11 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #f2f2f2;
+      background-color: #F8F9FA;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
-      border-top: 3px solid #1a202c;
+      border-top: 3px solid #1A202C;
     }
 
     .legal-footer .container {
@@ -1109,7 +1114,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a:hover {
-      color: #1a202c !important;
+      color: #1A202C !important;
       transform: scale(1.15);
       opacity: 1;
     }
@@ -1251,7 +1256,7 @@ img, picture, figure {
 /* Cookie Consent Customizations */
 :root {
   --cc-btn-primary-bg: #3b82f6;
-  --cc-btn-primary-border: #3b82f6;
+  --cc-btn-primary-border: #1A4D8F;
   --cc-btn-primary-hover-bg: #2269dd;
 }
 
@@ -1418,9 +1423,9 @@ img, picture, figure {
 #mic-access-tool-general-button svg line,
 #mic-access-tool-general-button svg polyline,
 #mic-access-tool-general-button svg g {
-  fill: #0170b9 !important;
-  stroke: #0170b9 !important;
-  color: #0170b9 !important;
+  fill: #1A4D8F !important;
+  stroke: #1A4D8F !important;
+  color: #1A4D8F !important;
 }
 
 /* Target images if the icon is an img instead of SVG */
@@ -1441,7 +1446,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #0170b9 !important;
+  background: #1A4D8F !important;
   color: white !important;
 }
 
@@ -1468,8 +1473,8 @@ div[id*="mic-access-tool-box"] .header * {
 #mic-access-tool-box button:hover,
 div[id*="mic-access-tool-box"] button.active,
 div[id*="mic-access-tool-box"] button:hover {
-  border-color: #0170b9 !important;
-  color: #0170b9 !important;
+  border-color: #1A4D8F !important;
+  color: #1A4D8F !important;
   background-color: rgba(1, 112, 185, 0.1) !important;
 }
 
@@ -1478,7 +1483,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #0170b9 !important;
+  background: #1A4D8F !important;
   color: white !important;
 }
 
