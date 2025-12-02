@@ -95,16 +95,16 @@ img {
 :root {
 --primary-color: #1A4D8F;
   --dark-gray: #3a3a3a;
-  --accent-red: #F39C12;
-  --accent-orange: #F39C12;
+  --accent-red: #059669;
+  --accent-orange: #059669;
   --light-bg: #f5f5f5;
   --white: #ffffff;
   --text-color: #4a4a4a;
   --shadow: 0 2px 10px rgba(0,0,0,0.1);
-  --secondary-color: #E85D3F;
-  --accent-color: #F39C12;
+  --secondary-color: #D97706;
+  --accent-color: #059669;
   --background-color: #FFFFFF;
-  --surface-color: #F8F9FA;
+  --surface-color: #F8FAFC;
   --text-secondary-color: #8c8c8c;
 }
 
@@ -255,7 +255,7 @@ img {
 }
 
 .nav-cta-btn:hover {
-  background: #143D6F;
+  background: #0F3A5F;
   transform: translateY(-2px);
 }
 
@@ -270,7 +270,7 @@ img {
 
 .mobile-toggle:hover svg,
 .phone-header-btn:hover svg {
-  color: #143D6F;
+  color: #0F3A5F;
 }
 
 .hero {
@@ -358,8 +358,8 @@ img {
 }
 
 .btn-primary:hover {
-  background: #143D6F;
-  border-color: #143D6F;
+  background: #0F3A5F;
+  border-color: #0F3A5F;
   transform: translateY(-2px);
 }
 
@@ -812,7 +812,7 @@ p {
 }
 
 .contact-details a:hover {
-  color: #143D6F;
+  color: #0F3A5F;
 }
 
 .contact-cta {
@@ -928,7 +928,7 @@ p {
     font-size: 24px;
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    background: #F39C12;
+    background: #D97706;
     color: white;
     text-decoration: none;
   }
@@ -1039,11 +1039,11 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #F8F9FA;
+      background-color: #F8FAFC;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
-      border-top: 3px solid #1A202C;
+      border-top: 3px solid #4A4A4A;
     }
 
     .legal-footer .container {
@@ -1114,7 +1114,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a:hover {
-      color: #1A202C !important;
+      color: #4A4A4A !important;
       transform: scale(1.15);
       opacity: 1;
     }
