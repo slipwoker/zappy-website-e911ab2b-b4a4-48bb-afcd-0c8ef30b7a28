@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://championship-logistic-e911ab2b.zappy5.app/sitemap.xml
